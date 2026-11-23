@@ -12,8 +12,8 @@ temp_topic = "HAMK/Fo/DHT22/" + my_id + "/temperature"
 hum_topic = "HAMK/Fo/DHT22/" + my_id + "/humidity"
 
 # wifi
-ssid = "Infinix HOT 10"
-password = "1234567890"
+ssid = "Zyxel_C451"
+password = "RJ834PL7NP"
 
 # dht22 sensor
 sensor = dht.DHT22(Pin(28))
@@ -27,7 +27,7 @@ while wifi.isconnected() == False:
 print("wifi connected")
 
 # connect mqtt
-client = MQTTClient(my_id, broker)
+client = MQTTClient("wasantha01", broker)
 client.connect()
 print("mqtt connected")
 
