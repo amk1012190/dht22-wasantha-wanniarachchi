@@ -12,8 +12,8 @@ temp_topic = "HAMK/Fo/DHT22/" + my_id + "/temperature"
 hum_topic = "HAMK/Fo/DHT22/" + my_id + "/humidity"
 
 # wifi
-ssid = "wasantha"
-password = "876543210"
+ssid = "Infinix HOT 10"
+password = "1234567890"
 
 # dht22 sensor
 sensor = dht.DHT22(Pin(28))
